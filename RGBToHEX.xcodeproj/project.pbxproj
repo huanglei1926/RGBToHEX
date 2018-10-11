@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0974E4216EF35F004018EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0974E3216EF35F004018EA /* AppDelegate.m */; };
+		BF0974E7216EF35F004018EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0974E6216EF35F004018EA /* ViewController.m */; };
+		BF0974EA216EF35F004018EA /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0974E9216EF35F004018EA /* Document.m */; };
+		BF0974EC216EF361004018EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0974EB216EF361004018EA /* Assets.xcassets */; };
+		BF0974EF216EF361004018EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0974ED216EF361004018EA /* Main.storyboard */; };
+		BF0974F2216EF361004018EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0974F1216EF361004018EA /* main.m */; };
+		BF0974FD216EF362004018EA /* RGBToHEXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0974FC216EF362004018EA /* RGBToHEXTests.m */; };
+		BF097508216EF362004018EA /* RGBToHEXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF097507216EF362004018EA /* RGBToHEXUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0974F9216EF362004018EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0974D7216EF35F004018EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0974DE216EF35F004018EA;
+			remoteInfo = RGBToHEX;
+		};
+		BF097504216EF362004018EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0974D7216EF35F004018EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0974DE216EF35F004018EA;
+			remoteInfo = RGBToHEX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0974DF216EF35F004018EA /* RGBToHEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBToHEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0974E2216EF35F004018EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF0974E3216EF35F004018EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF0974E5216EF35F004018EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF0974E6216EF35F004018EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF0974E8216EF35F004018EA /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		BF0974E9216EF35F004018EA /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		BF0974EB216EF361004018EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0974EE216EF361004018EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0974F0216EF361004018EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0974F1216EF361004018EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF0974F3216EF361004018EA /* RGBToHEX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGBToHEX.entitlements; sourceTree = "<group>"; };
+		BF0974F8216EF362004018EA /* RGBToHEXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBToHEXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0974FC216EF362004018EA /* RGBToHEXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBToHEXTests.m; sourceTree = "<group>"; };
+		BF0974FE216EF362004018EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF097503216EF362004018EA /* RGBToHEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBToHEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF097507216EF362004018EA /* RGBToHEXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBToHEXUITests.m; sourceTree = "<group>"; };
+		BF097509216EF362004018EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0974DC216EF35F004018EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0974F5216EF362004018EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF097500216EF362004018EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0974D6216EF35F004018EA = {
+			isa = PBXGroup;
+			children = (
+				BF0974E1216EF35F004018EA /* RGBToHEX */,
+				BF0974FB216EF362004018EA /* RGBToHEXTests */,
+				BF097506216EF362004018EA /* RGBToHEXUITests */,
+				BF0974E0216EF35F004018EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0974E0216EF35F004018EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0974DF216EF35F004018EA /* RGBToHEX.app */,
+				BF0974F8216EF362004018EA /* RGBToHEXTests.xctest */,
+				BF097503216EF362004018EA /* RGBToHEXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0974E1216EF35F004018EA /* RGBToHEX */ = {
+			isa = PBXGroup;
+			children = (
+				BF0974E2216EF35F004018EA /* AppDelegate.h */,
+				BF0974E3216EF35F004018EA /* AppDelegate.m */,
+				BF0974E5216EF35F004018EA /* ViewController.h */,
+				BF0974E6216EF35F004018EA /* ViewController.m */,
+				BF0974E8216EF35F004018EA /* Document.h */,
+				BF0974E9216EF35F004018EA /* Document.m */,
+				BF0974EB216EF361004018EA /* Assets.xcassets */,
+				BF0974ED216EF361004018EA /* Main.storyboard */,
+				BF0974F0216EF361004018EA /* Info.plist */,
+				BF0974F1216EF361004018EA /* main.m */,
+				BF0974F3216EF361004018EA /* RGBToHEX.entitlements */,
+			);
+			path = RGBToHEX;
+			sourceTree = "<group>";
+		};
+		BF0974FB216EF362004018EA /* RGBToHEXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0974FC216EF362004018EA /* RGBToHEXTests.m */,
+				BF0974FE216EF362004018EA /* Info.plist */,
+			);
+			path = RGBToHEXTests;
+			sourceTree = "<group>";
+		};
+		BF097506216EF362004018EA /* RGBToHEXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF097507216EF362004018EA /* RGBToHEXUITests.m */,
+				BF097509216EF362004018EA /* Info.plist */,
+			);
+			path = RGBToHEXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0974DE216EF35F004018EA /* RGBToHEX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF09750C216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEX" */;
+			buildPhases = (
+				BF0974DB216EF35F004018EA /* Sources */,
+				BF0974DC216EF35F004018EA /* Frameworks */,
+				BF0974DD216EF35F004018EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBToHEX;
+			productName = RGBToHEX;
+			productReference = BF0974DF216EF35F004018EA /* RGBToHEX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0974F7216EF362004018EA /* RGBToHEXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF09750F216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEXTests" */;
+			buildPhases = (
+				BF0974F4216EF362004018EA /* Sources */,
+				BF0974F5216EF362004018EA /* Frameworks */,
+				BF0974F6216EF362004018EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0974FA216EF362004018EA /* PBXTargetDependency */,
+			);
+			name = RGBToHEXTests;
+			productName = RGBToHEXTests;
+			productReference = BF0974F8216EF362004018EA /* RGBToHEXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF097502216EF362004018EA /* RGBToHEXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF097512216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEXUITests" */;
+			buildPhases = (
+				BF0974FF216EF362004018EA /* Sources */,
+				BF097500216EF362004018EA /* Frameworks */,
+				BF097501216EF362004018EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF097505216EF362004018EA /* PBXTargetDependency */,
+			);
+			name = RGBToHEXUITests;
+			productName = RGBToHEXUITests;
+			productReference = BF097503216EF362004018EA /* RGBToHEXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0974D7216EF35F004018EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Len;
+				TargetAttributes = {
+					BF0974DE216EF35F004018EA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BF0974F7216EF362004018EA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF0974DE216EF35F004018EA;
+					};
+					BF097502216EF362004018EA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF0974DE216EF35F004018EA;
+					};
+				};
+			};
+			buildConfigurationList = BF0974DA216EF35F004018EA /* Build configuration list for PBXProject "RGBToHEX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0974D6216EF35F004018EA;
+			productRefGroup = BF0974E0216EF35F004018EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0974DE216EF35F004018EA /* RGBToHEX */,
+				BF0974F7216EF362004018EA /* RGBToHEXTests */,
+				BF097502216EF362004018EA /* RGBToHEXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0974DD216EF35F004018EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0974EC216EF361004018EA /* Assets.xcassets in Resources */,
+				BF0974EF216EF361004018EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0974F6216EF362004018EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF097501216EF362004018EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0974DB216EF35F004018EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0974EA216EF35F004018EA /* Document.m in Sources */,
+				BF0974E7216EF35F004018EA /* ViewController.m in Sources */,
+				BF0974F2216EF361004018EA /* main.m in Sources */,
+				BF0974E4216EF35F004018EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0974F4216EF362004018EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0974FD216EF362004018EA /* RGBToHEXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0974FF216EF362004018EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF097508216EF362004018EA /* RGBToHEXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0974FA216EF362004018EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0974DE216EF35F004018EA /* RGBToHEX */;
+			targetProxy = BF0974F9216EF362004018EA /* PBXContainerItemProxy */;
+		};
+		BF097505216EF362004018EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0974DE216EF35F004018EA /* RGBToHEX */;
+			targetProxy = BF097504216EF362004018EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0974ED216EF361004018EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0974EE216EF361004018EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF09750A216EF362004018EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF09750B216EF362004018EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF09750D216EF362004018EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RGBToHEX/RGBToHEX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF09750E216EF362004018EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RGBToHEX/RGBToHEX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF097510216EF362004018EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBToHEX.app/Contents/MacOS/RGBToHEX";
+			};
+			name = Debug;
+		};
+		BF097511216EF362004018EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBToHEX.app/Contents/MacOS/RGBToHEX";
+			};
+			name = Release;
+		};
+		BF097513216EF362004018EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGBToHEX;
+			};
+			name = Debug;
+		};
+		BF097514216EF362004018EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RGBToHEXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Len.RGBToHEXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RGBToHEX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0974DA216EF35F004018EA /* Build configuration list for PBXProject "RGBToHEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF09750A216EF362004018EA /* Debug */,
+				BF09750B216EF362004018EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF09750C216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF09750D216EF362004018EA /* Debug */,
+				BF09750E216EF362004018EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF09750F216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF097510216EF362004018EA /* Debug */,
+				BF097511216EF362004018EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF097512216EF362004018EA /* Build configuration list for PBXNativeTarget "RGBToHEXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF097513216EF362004018EA /* Debug */,
+				BF097514216EF362004018EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0974D7216EF35F004018EA /* Project object */;
+}
